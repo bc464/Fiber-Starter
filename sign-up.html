@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Spence</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+  </head>
+  <body>
+    <main>
+      <div class="section-sign-up flex">
+        <div class="form-layout">
+          <a href="index.html" class="logo-form">Fiber</a>
+          <h1 class="main-heading-form">Create your Fiber account</h1>
+
+         
+          <form class="account-form" name="sign-up">
+            <div>
+              <label for="full-name" class="your-name">Your Name</label>
+            </div>
+            <input
+              id="full-name"
+              class="main-input"
+              type="text"
+              name="full-name"
+              placeholder="John Doe"
+              required
+            />
+
+            <div>
+              <label for="email" class="your-email">E-mail</label>
+            </div>
+            <input
+              id="email"
+              class="main-input"
+              type="email"
+              name="email"
+              placeholder="example@examle.com"
+              required
+            />
+
+            
+              <div>
+              <label for="password" class="your-password">Password</label>
+            </div>
+            <div class="password-input-field">
+            <input
+              id="password"
+              class="main-input"
+              type="password"
+              name="password"
+              placeholder="At least 8 characters"
+            /><img
+              class="password-img"
+              src="Assets/hide password.svg"
+              alt="hide password"
+            />
+            </div>
+
+            <div class="terms flex">
+              <input type="checkbox" required />
+              <p class="terms-text">
+                By creating an account on Fiber, you agree to the
+                <a class="terms-link" href="#">Terms & Conditions</a>
+              </p>
+            </div>
+            <button class="btn create-btn" type="submit">
+              Create Fiber Account
+            </button>
+            <p class="already-account">
+              Already have an account?
+              <a class="sign-in-link" href="#">Sign in</a>
+            </p>
+          </form>
+       
+      </div>
+      <div class="img-content-sign-up-form">
+        <div class="form-img">
+          <img
+            class="img-form"
+            src="Assets/Sign Up Image.png"
+            alt="sign up image"
+          />
+        </div>
+        <div class="img-content-text">
+          <h2 class="form-img-heading">Unparalleled Templates</h2>
+          <p class="content-text">
+            Crafted by a team of preofessional designers, our templates are
+            eunparalleled in the market.
+          </p>
+        </div>
+        <div style="text-align: center">
+          <span class="dot active" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

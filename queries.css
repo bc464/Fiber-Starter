@@ -1,0 +1,9 @@
+@media only Screen and (max-width: 660px) {
+  .btn-mobile-nav {
+    display: block;
+  }
+  .navbar,
+  .sign-in-up {
+    display: none;
+  }
+}
